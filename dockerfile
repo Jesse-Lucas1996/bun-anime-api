@@ -15,4 +15,5 @@ RUN chown -R 101:101 /app && chmod -R g+w /app
 USER appuser
 COPY . ./
 
-CMD bun install && bun run index.ts
+CMD bun install
+CMD bun run index.ts
