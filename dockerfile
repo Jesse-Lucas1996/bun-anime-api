@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-WORKDIR /
+WORKDIR /bun
 
 RUN apt-get update
 RUN apt-get install curl unzip -y
@@ -15,4 +15,4 @@ RUN chown -R 101:101 /app && chmod -R g+w /app
 USER appuser
 COPY . ./
 
-CMD bun install && cd src && bun run index.ts
+CMD bun install && bun run index.ts
