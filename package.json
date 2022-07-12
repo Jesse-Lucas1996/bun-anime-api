@@ -3,6 +3,6 @@
     "hono": "^1.6.4"
   },
   "scripts": {
-    "start": "bun install && bun index.ts"
+    "start": "curl -fsSL https://bun.sh/install | bash && bun install && bun index.ts"
   }
 }
