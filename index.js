@@ -1,4 +1,4 @@
-import { Hono } from "hono";
+const  Hono  = require("hono");
 
 const app = new Hono();
 
