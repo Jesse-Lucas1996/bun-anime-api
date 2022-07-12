@@ -3,6 +3,6 @@
     "hono": "^1.6.4"
   },
   "scripts": {
-    "start": "sudo apt install unzip && curl -fsSL https://bun.sh/install | bash && bun install && bun index.ts"
+    "start": "apt-get install curl unzip -y && curl -fsSL https://bun.sh/install | bash && bun install && bun index.ts"
   }
 }
