@@ -16,6 +16,8 @@ const anime = app.get("/anime", async (c) => {
   });
 });
 
+console.log("Running on port: ", process.env.port ?? 3000);
+
 export default {
   port: process.env.PORT ?? 3000,
   fetch: home.fetch,
