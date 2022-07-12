@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "hono": "^1.6.4"
-  },
-  "scripts": {
-    "start": "apt-get install curl unzip -y && curl -fsSL https://bun.sh/install | bash && bun install && bun index.ts"
-  }
-}
