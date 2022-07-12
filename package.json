@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "name": "blank",
-  "main": "src/index.js",
+  "name": "hono",
+  "main": "src/index.ts",
   "devDependencies": {
     "bun-types": "^0.0.83"
   },
